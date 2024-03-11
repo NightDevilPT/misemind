@@ -1,0 +1,65 @@
+{
+	"header": {
+		"navbar": {
+			"home": "Accueil",
+			"aboutus": "À propos de nous",
+			"contactus": "Contactez-nous",
+			"hiredeveloper": "Embaucher un développeur",
+			"service": "Service"
+		}
+	},
+	"banner": {
+		"banner1": {
+			"title": "Innover. Développer. Prospérer.",
+			"subtitle": "À l'intersection de l'innovation et du développement, nous créons des solutions numériques qui permettent aux entreprises de prospérer dans le paysage numérique en constante évolution."
+		},
+		"banner2": {
+			"title": "Autonomiser les entreprises grâce à l'excellence technologique.",
+			"subtitle": "Nous allons au-delà de la technologie pour offrir l'excellence. Nous autonomisons les entreprises avec des solutions de pointe, de l'innovation et un engagement inébranlable envers la qualité."
+		},
+		"banner3": {
+			"title": "Transformer les visions en réalité virtuelle.",
+			"subtitle": "Vos visions, notre expertise. Nous sommes spécialisés dans la transformation de vos aspirations en une réalité virtuelle qui se distingue dans le domaine numérique."
+		},
+		"banner4": {
+			"title": "Solutions stratégiques, développement sans faille.",
+			"subtitle": "Offrant des solutions stratégiques à travers un processus de développement sans faille. Nous combinons la créativité avec la technologie pour offrir des résultats qui dépassent les attentes."
+		}
+	},
+	"service": {
+		"heading": "Services",
+		"subHeading": "Les technologies que nous utilisons",
+		"card": [
+			{
+				"title": "Solutions informatiques",
+				"subtitle": "Libérer des possibilités grâce à des solutions informatiques innovantes",
+				"description": "En tant que firme informatique dédiée, nous sommes spécialisés dans la transformation des défis en opportunités, des complexités en simplicités et des idées en réalités. Avec une passion pour l'innovation et un engagement envers l'excellence, nous proposons une gamme de solutions informatiques de pointe conçues pour propulser votre entreprise vers de nouveaux sommets."
+			},
+			{
+				"title": "Conseil informatique",
+				"subtitle": "Guider votre succès : Conseil informatique expert pour une transformation transparente",
+				"description": "En tant que firme de conseil informatique de premier plan, nous sommes dédiés à vous guider à travers le paysage complexe de la technologie, en veillant à ce que votre parcours vers la transformation numérique soit à la fois transparent et stratégique."
+			},
+			{
+				"title": "Développement d'applications mobiles",
+				"subtitle": "Élever les expériences : Création d'applications mobiles exceptionnelles pour votre vision",
+				"description": "Bienvenue chez MISEMIND, le centre du développement innovant d'applications mobiles. En tant que firme informatique de premier plan, nous comprenons que les applications mobiles ne sont pas seulement une question de technologie, mais qu'elles consistent à créer des expériences utilisateur mémorables qui résonnent avec votre public."
+			},
+			{
+				"title": "Développement web",
+				"subtitle": "Façonner des destinations numériques : Création de solutions web dynamiques pour votre succès",
+				"description": "Bienvenue chez MISEMIND, votre porte d'entrée vers des solutions de développement web impactantes. En tant que firme informatique de premier plan, nous comprenons qu'un site web est plus qu'une simple présence en ligne, c'est une vitrine numérique de votre marque, de vos valeurs et de vos aspirations."
+			},
+			{
+				"title": "Site web de commerce électronique",
+				"subtitle": "Renforcer votre vitrine en ligne : Création d'expériences e-commerce fluides",
+				"description": "Nos services de développement de sites web de commerce électronique reposent sur les principes de l'innovation, du design centré sur l'utilisateur et de la fonctionnalité robuste. Que vous soyez un détaillant établi ou un entrepreneur débutant, nous avons l'expertise pour traduire vos produits et services en une vitrine en ligne captivante."
+			},
+			{
+				"title": "Embaucher des développeurs",
+				"subtitle": "Débloquer le talent, alimenter l'innovation : Votre chemin pour embaucher des développeurs experts",
+				"description": "En tant que firme informatique de premier plan, nous comprenons que le développement exceptionnel nécessite des esprits exceptionnels. Trouver les bons développeurs pour votre équipe peut être un défi."
+			}
+		]
+	}
+}
