@@ -7,9 +7,7 @@ import axios from "axios";
 const fetchLanguageAsync = createAsyncThunk(
 	"data/fetchData",
 	async (language: string) => {
-		const response = await axios.get(
-			`http://localhost:3000/languages/${language}.json`
-		);
+		const response = await axios.get(`../../../languages/${language}.json`);
 		return response.data;
 	}
 );
