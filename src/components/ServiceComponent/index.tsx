@@ -8,7 +8,7 @@ import ServiceComponents from "./ServiceComp";
 const ServiceComponent = () => {
 	const { data } = useAppSelector((state: RootState) => state.changeLanguage);
 	return (
-		<section className={`w-full h-auto py-5`}>
+		<section className={`w-full h-auto py-5 font-mont`}>
 			<div className=" container max-sm:px-5 h-auto flex justify-center items-center flex-col py-1">
 				<h1
 					className={`h-auto font-bold text-4xl max-md:text-3xl text-center text-primary-fg`}

@@ -26,7 +26,7 @@ interface IProps {
 
 const ServiceComponents = ({index,title,subTitle,description}:IProps) => {
   return (
-    <div className='relative group p-4 rounded hover:shadow-lg hover:shadow-slate-700/20 transition-all duration-300 hover:translate-y-[-2px] cursor-pointer flex justify-center flex-col items-center gap-2 overflow-hidden'>
+    <div className='relative group p-4 rounded hover:shadow-lg hover:shadow-slate-950/20 transition-all duration-300 hover:translate-y-[-2px] cursor-pointer flex justify-center flex-col items-center gap-2 overflow-hidden'>
         {Icons[index]}
         <h1 className={`text-center text-xl font-bold mt-2 text-primary-fg`}>{title}</h1>
         <h4 className={`text-sm text-center text-secondary-fg`}>{subTitle}</h4>

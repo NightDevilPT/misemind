@@ -40,7 +40,7 @@ const BannerFrame = () => {
 				})}
 			</section>
 			<div
-				className={`absolute left-0 bottom-0 h-3 w-full z-50 gradient-bg`}
+				className={`absolute left-0 bottom-0 h-3 w-full z-40 gradient-bg`}
 			></div>
 		</div>
 	);

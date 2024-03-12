@@ -12,8 +12,8 @@ const NavbarFrame = ({ showNav }: IProps) => {
 	const pathParams = usePathname();
 	return (
 		<div
-			className={`w-auto h-auto max-lg:fixed right-5 top-20 max-lg:w-[calc(100%-40px)] text-slate-300
-			 transition-all duration-300 ${showNav?"max-lg:h-60 max-lg:py-5":"max-lg:h-0 max-lg:py-0"} max-lg:bg-primary-fg max-lg:text-primary-bg rounded overflow-hidden`}
+			className={`w-auto h-auto max-lg:fixed right-5 top-16 max-lg:w-[calc(100%-40px)] text-slate-300
+			 transition-all duration-300 ${showNav?"max-lg:h-60 max-lg:py-5 max-lg:text-slate-900":"max-lg:h-0 max-lg:py-0"} max-lg:bg-slate-200 max-lg:shadow-xl max-lg:shadow-slate-950/30 max-lg:text-primary-bg rounded overflow-hidden`}
 		>
 			<nav
 				className={`w-auto h-auto flex justify-center items-center gap-5 max-md:flex-col`}

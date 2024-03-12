@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import idea from "../../../assets/ideas.jpg";
 import empowering from "../../../assets/empowering.jpg";
 import solution from "../../../assets/solution.jpg";
 import vission from "../../../assets/vission.jpg";
 import Image, { StaticImageData } from "next/image";
-import { useAppSelector } from "@/redux/store/hooks";
-import { RootState } from "@/redux/store/store";
 
 interface IProps {
 	align: "left" | "right";
@@ -16,7 +14,6 @@ interface IProps {
 
 const BannerSection = ({ align, index, title, subtitle }: IProps) => {
 	const images: StaticImageData[] = [idea, empowering, solution, vission];
-	const { data } = useAppSelector((state: RootState) => state.changeLanguage);
 
 	return (
 		<div
