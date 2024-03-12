@@ -22,7 +22,7 @@ const BannerFrame = () => {
 		return { transform: `translateX(${newPosition})` };
 	};
 	return (
-		<div className="w-full h-auto relative">
+		<div className="w-full h-auto relative overflow-hidden">
 			<section
 				className={`w-full h-[700px] flex transition-all duration-500`}
 				style={updateSlider()}

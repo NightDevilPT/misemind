@@ -17,7 +17,7 @@ const BannerSection = ({ align, index, title, subtitle }: IProps) => {
 
 	return (
 		<div
-			className={`w-full min-w-full h-full flex justify-center items-center relative overflow-hidden`}
+			className={`w-full min-w-full h-full flex justify-center items-center relative`}
 		>
 			<Image
 				src={images[index]}
