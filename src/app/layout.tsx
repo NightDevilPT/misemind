@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html data-theme="dark">
 			<body
-				className={` bg-primary-bg font-mont w-full h-[100vh] overflow-y-auto overflow-x-hidden`}
+				className={` bg-primary-bg font-mont w-full h-[100vh] overflow-y-auto overflow-x-hidden transition-all duration-300`}
 			>
 				<ParentLayout>{children}</ParentLayout>
 			</body>

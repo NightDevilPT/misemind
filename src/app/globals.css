@@ -126,3 +126,33 @@ body::-webkit-scrollbar-track {
 		transform: rotate(1turn);
 	}
 }
+
+.left-border{
+	border-radius: 42% 39% 56% 8% / 54% 36% 37% 8%;
+}
+
+.right-border{
+	border-radius: 36% 41% 6% 54% / 36% 51% 6% 39%;
+}
+
+.right-triangle::after {
+	content: "";
+	right:  20px;
+	bottom: -20px;
+	z-index: -1;
+	width: 7rem;
+	height: 7rem;
+	position: absolute;
+	clip-path: polygon(55% 0, 0 50%, 100% 100%);
+}
+
+.left-triangle::after {
+	content: "";
+	left:  20px;
+	z-index: -1;
+	width: 7rem;
+	height: 7rem;
+	bottom: -20px;
+	position: absolute;
+	clip-path: polygon(100% 55%, 50% 0, 0 100%);
+}
