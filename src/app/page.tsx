@@ -10,7 +10,7 @@ const page = () => {
 		<div className="relative">
 			<BannerFrame />
 			<TechnologyComponent />
-			<ServiceComponent />
+			<ServiceComponent showTitle={true} />
 			<HowItWorksComponent />
 			<ExperienceFrame />
 		</div>

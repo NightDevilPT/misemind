@@ -43,7 +43,7 @@ const HeaderComponent = () => {
 						<MdOutlineWbSunny className={`w-5 h-5`} />
 					</button>
 					<button
-						className={`hidden max-md:flex w-auto h-auto justify-center items-center`}
+						className={`hidden max-lg:flex w-auto h-auto justify-center items-center`}
 						onClick={() => setShowNav(!showNav)}
 					>
 						{!showNav ? (
