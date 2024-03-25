@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { AiFillClockCircle } from "react-icons/ai";
 import { ContactCards } from "./ContactCards";
 
-const contactCards = [
+export const contactCards = [
 	{
 		text: `1105 A 11th Floor Pearls
 		Best Heights 2

@@ -45,7 +45,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 						{data?.header?.navbar?.aboutus}
 					</button>
 				</Link>
-				<Link href={'/contact-us'}>
+				<Link href={"/contact-us"}>
 					<button
 						className={`w-auto h-auto text-base ${
 							pathParams === "/contact-us"
@@ -59,7 +59,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 				<Link href={"/services"}>
 					<button
 						className={`w-auto h-auto text-base ${
-							pathParams === "/service"
+							pathParams === "/services"
 								? "text-green-600 font-bold"
 								: "hover:text-green-600"
 						} transition-all duration-300`}
@@ -67,15 +67,17 @@ const NavbarFrame = ({ showNav }: IProps) => {
 						{data?.header?.navbar?.service}
 					</button>
 				</Link>
-				<button
-					className={`w-auto h-auto text-base ${
-						pathParams === "/hire-developers"
-							? "text-green-600 font-bold"
-							: "hover:text-green-600"
-					} transition-all duration-300`}
-				>
-					{data?.header?.navbar?.hiredeveloper}
-				</button>
+				<Link href={'/hire-developer'}>
+					<button
+						className={`w-auto h-auto text-base ${
+							pathParams === "/hire-developer"
+								? "text-green-600 font-bold"
+								: "hover:text-green-600"
+						} transition-all duration-300`}
+					>
+						{data?.header?.navbar?.hiredeveloper}
+					</button>
+				</Link>
 			</nav>
 		</div>
 	);

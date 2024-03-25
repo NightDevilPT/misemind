@@ -127,17 +127,17 @@ body::-webkit-scrollbar-track {
 	}
 }
 
-.left-border{
+.left-border {
 	border-radius: 42% 39% 56% 8% / 54% 36% 37% 8%;
 }
 
-.right-border{
+.right-border {
 	border-radius: 36% 41% 6% 54% / 36% 51% 6% 39%;
 }
 
 .right-triangle::after {
 	content: "";
-	right:  20px;
+	right: 20px;
 	bottom: -20px;
 	z-index: -1;
 	width: 7rem;
@@ -148,7 +148,7 @@ body::-webkit-scrollbar-track {
 
 .left-triangle::after {
 	content: "";
-	left:  20px;
+	left: 20px;
 	z-index: -1;
 	width: 7rem;
 	height: 7rem;
@@ -156,3 +156,4 @@ body::-webkit-scrollbar-track {
 	position: absolute;
 	clip-path: polygon(100% 55%, 50% 0, 0 100%);
 }
+
