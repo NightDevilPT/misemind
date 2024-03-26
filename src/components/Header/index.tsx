@@ -30,7 +30,7 @@ const HeaderComponent = () => {
 		>
 			<div className=" container h-full flex justify-between items-center bg-transparent max-sm:px-5 text-slate-300">
 				<HeaderLogo />
-				<NavbarFrame showNav={showNav} />
+				<NavbarFrame showNav={showNav} setShow={setShowNav} />
 				<div
 					className={`w-auto h-auto flex justify-center items-center gap-3`}
 				>
