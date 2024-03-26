@@ -25,7 +25,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 			>
 				<Link href={"/"}>
 					<button
-						className={`w-auto h-auto text-base ${
+						className={`w-auto h-auto text-base font-mont ${
 							pathParams === "/"
 								? "text-green-600 font-bold"
 								: "hover:text-green-600"
@@ -36,7 +36,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 				</Link>
 				<Link href={"/about-us"}>
 					<button
-						className={`w-auto h-auto text-base ${
+						className={`w-auto h-auto text-base font-mont ${
 							pathParams === "/about-us"
 								? "text-green-600 font-bold"
 								: "hover:text-green-600"
@@ -47,7 +47,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 				</Link>
 				<Link href={"/contact-us"}>
 					<button
-						className={`w-auto h-auto text-base ${
+						className={`w-auto h-auto text-base font-mont ${
 							pathParams === "/contact-us"
 								? "text-green-600 font-bold"
 								: "hover:text-green-600"
@@ -58,7 +58,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 				</Link>
 				<Link href={"/services"}>
 					<button
-						className={`w-auto h-auto text-base ${
+						className={`w-auto h-auto text-base font-mont ${
 							pathParams === "/services"
 								? "text-green-600 font-bold"
 								: "hover:text-green-600"
@@ -69,7 +69,7 @@ const NavbarFrame = ({ showNav }: IProps) => {
 				</Link>
 				<Link href={'/hire-developer'}>
 					<button
-						className={`w-auto h-auto text-base ${
+						className={`w-auto h-auto text-base font-mont ${
 							pathParams === "/hire-developer"
 								? "text-green-600 font-bold"
 								: "hover:text-green-600"

@@ -35,7 +35,7 @@ const BannerSection = ({ align, index, title, subtitle }: IProps) => {
 				} flex-col gap-3`}
 			>
 				<h1
-					className={`text-5xl max-lg:text-3xl text-slate-300 w-[70%] max-lg:w-[80%] max-md:w-full ${
+					className={`text-5xl max-lg:text-3xl text-slate-300 w-[70%] max-lg:w-[80%] max-md:w-full font-mont ${
 						align === "left" ? "text-left" : "text-right"
 					}`}
 				>
@@ -45,14 +45,14 @@ const BannerSection = ({ align, index, title, subtitle }: IProps) => {
 					className={`w-32 h-[6px] relative -top-2 rounded bg-green-600`}
 				/>
 				<span
-					className={`text-xl max-lg:text-base max-sm:text-sm text-slate-300 w-[90%] max-lg:w-[90%] max-md:w-full ${
+					className={`text-xl max-lg:text-base max-sm:text-sm text-slate-300 w-[90%] max-lg:w-[90%] max-md:w-full font-mont ${
 						align === "left" ? "text-left" : "text-right"
 					}`}
 				>
 					{subtitle}
 				</span>
 				<button
-					className={`px-5 py-2 rounded border-2 border-slate-100 text-slate-100 font-bold hover:border-slate-200 hover:bg-slate-200 transition-all duration-300 hover:text-slate-900`}
+					className={`px-5 py-2 rounded border-2 border-slate-100 text-slate-100 font-bold hover:border-slate-200 hover:bg-slate-200 transition-all duration-300 hover:text-slate-900 font-mont`}
 				>
 					Contact Us
 				</button>

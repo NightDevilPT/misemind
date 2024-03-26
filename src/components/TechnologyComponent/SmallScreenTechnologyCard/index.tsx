@@ -20,7 +20,7 @@ const TechnologyCard = ({ image, title, description }: IProps) => {
 				className={` w-10 h-10 object-contain`}
 				alt="Technology-Card"
 			/>
-			<h3 className={`text-base font-bold max-sm:hidden text-primary-fg`}>{title}</h3>
+			<h3 className={`text-base font-bold max-sm:hidden text-primary-fg font-mont`}>{title}</h3>
 		</div>
 	);
 };

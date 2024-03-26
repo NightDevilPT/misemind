@@ -14,10 +14,10 @@ const PageBanner = ({ title }: IProps) => {
 			<div className={`w-full h-full bg-gradient-to-b from-transparent to-slate-950 absolute left-0 top-0`}>
 				<div className={`container w-full h-full flex justify-center items-center flex-col`}>
 					<h1 className={`text-3xl font-bold font-mont text-slate-300 capitalize`}>{title}</h1>
-					<span className={`text-base font-mont text-slate-300 flex justify-center items-center gap-2 capitalize`}>
-						<Link className={` hover:text-highlight transition-all duration-300`} href={'/'}>Home</Link>
+					<span className={`text-base text-slate-300 flex justify-center items-center gap-2 capitalize`}>
+						<Link className={` hover:text-highlight transition-all duration-300 font-mont`} href={'/'}>Home</Link>
 						<span>{'>>'}</span>
-						<span>{title}</span>
+						<span className=" font-mont">{title}</span>
 					</span>
 				</div>
 			</div>

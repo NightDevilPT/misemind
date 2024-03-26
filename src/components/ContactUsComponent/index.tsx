@@ -95,8 +95,15 @@ export const ContactUsForm = () => {
 				className={`w-full font-mont text-primary-fg h-auto p-3 px-4 rounded outline-none bg-secondary-bg placeholder:text-secondary-fg`}
 				placeholder="Email-ID"
 			/>
-			<textarea className={`w-full h-20 font-mont text-primary-fg p-3 px-4 rounded outline-none bg-secondary-bg placeholder:text-secondary-fg`} placeholder="Description"></textarea>
-			<button className={`w-full h-auto flex justify-center items-center bg-primary-fg text-primary-bg p-3 rounded font-bold`}>Submit</button>
+			<textarea
+				className={`w-full h-20 font-mont text-primary-fg p-3 px-4 rounded outline-none bg-secondary-bg placeholder:text-secondary-fg`}
+				placeholder="Description"
+			></textarea>
+			<button
+				className={`w-full h-auto flex justify-center items-center bg-primary-fg text-primary-bg p-3 rounded font-bold`}
+			>
+				Submit
+			</button>
 		</form>
 	);
 };

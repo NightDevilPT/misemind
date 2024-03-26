@@ -41,7 +41,7 @@ const HireDeveloperComponents = () => {
 				>
 					{hireDeveloper.title}
 				</h1>
-				<span className={`text-primary-fg w-full`}>
+				<span className={`text-primary-fg w-full font-mont`}>
 					{hireDeveloper.description}
 				</span>
 				<div
@@ -95,7 +95,7 @@ export interface IProps {
 }
 export const SkillsCards = ({ title, tags }: IProps) => {
 	return (
-		<span className={`px-3 rounded-full bg-secondary-bg text-primary-fg`}>
+		<span className={`px-3 rounded-full bg-secondary-bg text-primary-fg font-mont`}>
 			{tags}
 		</span>
 	);

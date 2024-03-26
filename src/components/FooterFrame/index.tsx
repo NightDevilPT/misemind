@@ -15,8 +15,8 @@ import HeaderLogo from "../Header/Logo";
 
 const FooterFrame = () => {
 	return (
-		<section className={`w-full pt-16 bg-slate-950`}>
-			<div className={`container relative h-auto grid grid-cols-[repeat(auto-fit,_minmax(220px,1fr))] max-lg:grid-cols-[repeat(auto-fit,_minmax(300px,1fr))] gap-5 max-sm:px-5 pb-24`}>
+		<section className={`w-full pt-16 bg-slate-950 font-mont`}>
+			<div className={`container relative h-auto grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-5 max-sm:px-5 pb-24`}>
 
 				<div className={`w-full h-auto flex justify-start items-start flex-col gap-4`} >
 					<HeaderLogo />
@@ -42,31 +42,31 @@ const FooterFrame = () => {
 				</div>
 
 				<div className={`w-full h-auto flex justify-start items-start flex-col gap-10`} >
-					<h3 className={`text-xl text-slate-50 font-bold`}>
+					<h3 className={`text-xl text-slate-50 font-bold font-mont`}>
 						Quick Links
 					</h3>
 					<div className={`w-full h-auto flex-col flex justify-start items-start gap-2`} >
 						<Link
 							href={"/"}
-							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300`}
+							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300 font-mont`}
 						>
 							Company Overview
 						</Link>
 						<Link
 							href={"/"}
-							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300`}
+							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300 font-mont`}
 						>
 							Company History
 						</Link>
 						<Link
 							href={"/"}
-							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300`}
+							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300 font-mont`}
 						>
 							Our Approach
 						</Link>
 						<Link
 							href={"/"}
-							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300`}
+							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300 font-mont`}
 						>
 							Apply As Developer
 						</Link>
@@ -74,7 +74,7 @@ const FooterFrame = () => {
 				</div>
 
 				<div className={`w-full h-auto flex justify-start items-start flex-col gap-10`} >
-					<h3 className={`text-xl text-slate-50 font-bold`}>
+					<h3 className={`text-xl text-slate-50 font-bold font-mont`}>
 						Information
 					</h3>
 					<div
@@ -82,7 +82,7 @@ const FooterFrame = () => {
 					>
 						<Link
 							href={"/"}
-							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300`}
+							className={`text-xs text-slate-100 hover:text-green-500 transition-all duration-300 font-mont`}
 						>
 							Hire Developer
 						</Link>
@@ -90,7 +90,7 @@ const FooterFrame = () => {
 				</div>
 
 				<div className={`w-full h-auto flex justify-start items-start flex-col gap-10`} >
-					<h3 className={`text-xl text-slate-50 font-bold`}>
+					<h3 className={`text-xl text-slate-50 font-bold font-mont`}>
 						Contact Details
 					</h3>
 
@@ -99,21 +99,21 @@ const FooterFrame = () => {
 					>
 						<div className={`w-full h-auto flex justify-start items-start cursor-pointer gap-2`}>
 							<MdLocationPin className={`w-6 min-w-[24px] h-6 text-green-500`} />
-							<span className={`text-xs text-slate-50`}>1105 A 11th Floor Pearls  Best Heights 2 NSP,  DELHI 110034 INDIA</span>
+							<span className={`text-xs text-slate-50 font-mont`}>1105 A 11th Floor Pearls  Best Heights 2 NSP,  DELHI 110034 INDIA</span>
 						</div>
 						<div className={`w-full h-auto flex justify-start items-center cursor-pointer gap-2`}>
 							<MdPhone className={`w-5 min-w-[20px] h-6 text-green-500`} />
-							<span className={`text-xs text-slate-50`}>+91 -98689-08193</span>
+							<span className={`text-xs text-slate-50 font-mont`}>+91 -98689-08193</span>
 						</div>
 						<div className={`w-full h-auto flex justify-start items-center cursor-pointer gap-2`}>
 							<MdEmail className={`w-5 min-w-[20px] h-6 text-green-500`} />
-							<span className={`text-xs text-slate-50`}>info@misemind.com</span>
+							<span className={`text-xs text-slate-50 font-mont`}>info@misemind.com</span>
 						</div>
 					</div>
 				</div>
 
 				<div className={`absolute bottom-0 left-0 w-full text-center mt-16 bg-slate-950 text-slate-50 border-t-[1px] py-3 border-t-slate-700 text-xs`}>
-					<span className={`text-green-500`}>Copyright © 2023</span> MISEMIND TECHNOLOGIES I POWERED BY MISEMIND TECHNOLOGIES
+					<span className={`text-green-500 font-mont`}>Copyright © 2023</span> MISEMIND TECHNOLOGIES I POWERED BY MISEMIND TECHNOLOGIES
 				</div>
 			</div>
 		</section>

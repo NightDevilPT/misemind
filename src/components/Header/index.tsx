@@ -28,7 +28,7 @@ const HeaderComponent = () => {
 		<header
 			className={`w-full h-20 fixed left-0 top-0 z-50 backdrop-blur-md ${color} transition-all duration-300`}
 		>
-			<div className=" container h-full flex justify-between items-center bg-transparent max-sm:px-5">
+			<div className=" container h-full flex justify-between items-center bg-transparent max-sm:px-5 text-slate-300">
 				<HeaderLogo />
 				<NavbarFrame showNav={showNav} />
 				<div
